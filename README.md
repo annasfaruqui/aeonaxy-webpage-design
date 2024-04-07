@@ -24,4 +24,4 @@ npm run dev
 
 You can view the live demo of the website on:
 
-<!-- [https://webbuilder-internship-annasfaruqui.netlify.app](https://webbuilder-internship-annasfaruqui.netlify.app) -->
+[https://aeonaxy-webpage-design-annasfaruqui.netlify.app](https://aeonaxy-webpage-design-annasfaruqui.netlify.app)

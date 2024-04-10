@@ -14,17 +14,17 @@ function Heading({ type, children, color }) {
         </h2>
       )}
       {type === "tertiary" && (
-        <h3 className="text-3xl font-semibold leading-snug text-blue-950 sm:text-4xl">
+        <h3 className="text-3xl font-semibold text-blue-950 sm:text-4xl">
           {children}
         </h3>
       )}
       {type === "tertiary-big" && (
-        <h3 className="text-3xl font-semibold text-white sm:text-5xl sm:leading-normal md:leading-snug">
+        <h3 className="text-3xl font-semibold text-white sm:text-5xl sm:leading-normal ">
           {children}
         </h3>
       )}
       {type === "tertiary-small" && (
-        <h3 className="text-3xl font-bold text-white sm:text-3xl sm:leading-normal md:leading-snug">
+        <h3 className="text-3xl font-bold text-white sm:text-[2rem]">
           {children}
         </h3>
       )}

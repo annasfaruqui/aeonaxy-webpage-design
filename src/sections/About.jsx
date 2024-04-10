@@ -5,7 +5,8 @@ import aboutImg from "../assets/img1.jpg";
 function About() {
   return (
     <section id="about-section">
-      <Container extraStyles="my-16 sm:pt-10 md:my-32 md:pt-20">
+      {/* <Container extraStyles="my-16 sm:pt-10 md:my-32 md:pt-20"> */}
+      <Container extraStyles="mb-16 md:mb-32">
         <div className="flex flex-col justify-between gap-6 md:flex-row lg:gap-20">
           <div className="flex basis-2/4 flex-col gap-4 lg:gap-8">
             <Heading type="secondary">Better Conversions</Heading>

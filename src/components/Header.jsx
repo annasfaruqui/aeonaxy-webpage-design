@@ -1,9 +1,10 @@
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import Button from "../ui/Button";
-import Logo from "../ui/Logo";
-import Navbar from "./Navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
+import Button from "../components/Button";
+import Logo from "../components/Logo";
+import Navbar from "./Navbar";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

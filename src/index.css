@@ -4,14 +4,14 @@
 
 @layer utilities {
   .clip-path-hero-lg {
-    clip-path: circle(55% at 50% 130%);
+    clip-path: circle(65% at 50% 130%);
   }
 
   .clip-path-hero-sm {
-    clip-path: circle(30% at 50% 80%);
+    clip-path: circle(50% at 50% 110%);
   }
 
   .clip-path-hero {
-    clip-path: circle(18% at 50% 70%);
+    clip-path: circle(25% at 50% 57%);
   }
 }

@@ -20,7 +20,7 @@ function Header() {
       <Logo />
 
       <nav
-        className={`absolute top-0  w-2/5 ${isOpen ? "right-0" : "left -right-full translate-x-full"} z-30 h-screen bg-white px-16 pt-20 duration-500 xl:static xl:h-auto xl:w-auto xl:translate-x-0 xl:border-0 xl:p-0`}
+        className={`absolute top-0  w-4/5 ${isOpen ? "right-0" : "left -right-full translate-x-full"} z-30 h-screen bg-white px-16 pt-20 duration-500 xl:static xl:h-auto xl:w-auto xl:translate-x-0 xl:border-0 xl:p-0`}
       >
         <ul className="flex cursor-pointer flex-col items-center justify-between gap-8 font-semibold text-black xl:flex-row">
           <li>Individuals</li>
@@ -43,7 +43,7 @@ function Header() {
       </nav>
 
       <div
-        className={`absolute ${isOpen ? "right-0 opacity-100" : "-right-full translate-x-full opacity-0"} top-[26rem] z-30 flex w-2/5 flex-col justify-center gap-4 px-16 duration-500 xl:static xl:w-auto xl:translate-x-0 xl:flex-row xl:items-center xl:gap-2 xl:p-0 xl:opacity-100`}
+        className={`absolute ${isOpen ? "right-0 opacity-100" : "-right-full translate-x-full opacity-0"} top-[26rem] z-30 flex w-4/5 flex-col justify-center gap-4 px-16 duration-500 xl:static xl:w-auto xl:translate-x-0 xl:flex-row xl:items-center xl:gap-2 xl:p-0 xl:opacity-100`}
       >
         <Button
           variation="secondary"

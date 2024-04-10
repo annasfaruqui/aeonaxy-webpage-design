@@ -14,7 +14,6 @@ function Testimonials() {
     <section id="testimonials-section" className="bg-blue-50 pb-20 pt-32">
       <Container>
         <AliceCarousel
-          //   mouseTracking
           items={items}
           controlsStrategy="alternate"
           autoPlay={true}
@@ -22,6 +21,7 @@ function Testimonials() {
           infinite
           autoPlayStrategy="default"
           disableButtonsControls={true}
+          touchTracking={false}
         />
       </Container>
     </section>

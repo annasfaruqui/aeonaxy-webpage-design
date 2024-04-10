@@ -4,7 +4,7 @@ import Heading from "../components/Heading";
 function Cta() {
   return (
     <section id="cta-section" className="bg-blue-950 py-16">
-      <div className="mx-auto flex max-w-screen-lg flex-col items-center gap-12 px-10 text-center">
+      <div className="mx-auto flex max-w-screen-lg flex-col gap-12 px-10 text-center sm:items-center">
         <Heading type="tertiary-small">
           Win more business with less work.
         </Heading>
@@ -12,7 +12,7 @@ function Cta() {
           Routing forms help you screen and qualify website visitors, automate
           scheuling, and offer a seamless customer experience.
         </p>
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <Button variation="primary" size="large">
             Start for free
           </Button>

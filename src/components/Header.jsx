@@ -23,7 +23,12 @@ function Header() {
       <Navbar />
 
       <div className="hidden items-center justify-center gap-2 lg:flex">
-        <Button variation="secondary">Log In</Button>
+        <Button
+          variation="secondary"
+          secCol="text-gray-700 ring-gray-700 hover:bg-gray-100"
+        >
+          Log In
+        </Button>
         <Button variation="primary">Get started</Button>
       </div>
     </header>

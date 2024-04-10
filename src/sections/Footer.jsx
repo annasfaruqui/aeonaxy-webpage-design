@@ -20,8 +20,8 @@ function Footer() {
       <Container extraStyles="flex flex-col gap-28 lg:grid lg:grid-cols-[1fr_2fr] gap-x-24 lg:gap-x-12 lg:gap-y-16">
         <div className="flex flex-col gap-6">
           <h4 className="text-4xl font-bold md:leading-normal">
-            <span className="text-blue-950">Easy</span>
-            <br />
+            <span className="text-blue-950">Easy&nbsp;</span>
+            <br className="hidden lg:block" />
             <span className="text-blue-600">ahead</span>
           </h4>
           <p className="w-5/6 font-light leading-relaxed text-blue-950">

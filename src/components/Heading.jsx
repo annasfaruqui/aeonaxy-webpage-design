@@ -2,7 +2,7 @@ function Heading({ type, children, color }) {
   return (
     <>
       {type === "primary" && (
-        <h1 className="z-10 text-4xl font-bold text-blue-950 lg:mb-2 lg:text-5xl">
+        <h1 className="z-10 text-4xl font-bold leading-snug text-blue-950 lg:mb-2 lg:text-5xl">
           {children}
         </h1>
       )}

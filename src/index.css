@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .clip-path-hero-lg {
+    clip-path: circle(55% at 50% 130%);
+  }
+
+  .clip-path-hero-sm {
+    clip-path: circle(30% at 50% 80%);
+  }
+
+  .clip-path-hero {
+    clip-path: circle(18% at 50% 70%);
+  }
+}

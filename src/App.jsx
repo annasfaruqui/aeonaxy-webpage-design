@@ -5,6 +5,7 @@ import Footer from "./sections/Footer";
 import Video from "./sections/Video";
 import Features from "./sections/Features";
 import Cta from "./sections/Cta";
+import Testimonials from "./sections/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Video />
       <Features />
+      <Testimonials />
       <Cta />
       <Footer />
     </>

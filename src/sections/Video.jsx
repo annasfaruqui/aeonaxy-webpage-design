@@ -8,8 +8,8 @@ function Video() {
       className="mb-20 bg-blue-950 pb-6 pt-20 text-center sm:pb-10 lg:mb-96 lg:pb-64 min-[1700px]:mb-[30rem]"
     >
       <div className="relative flex w-full flex-col items-center gap-6 px-4 sm:px-6 lg:mx-auto lg:w-4/6 min-[1105px]:w-3/6">
-        <div className="absolute -right-[51%] -top-[44%] hidden h-40 w-48 rounded-bl-full border-b-[12px] border-l-[12px] border-teal-400 min-[1105px]:block"></div>
-        <div className="absolute -bottom-[144%] -left-[48%] hidden h-60 w-72 grid-cols-5 gap-3 rounded-tr-full min-[1105px]:grid">
+        <div className="absolute -right-[51%] -top-[41.5%] hidden h-40 w-48 rounded-bl-full border-b-[12px] border-l-[12px] border-teal-400 min-[1105px]:block"></div>
+        <div className="absolute -bottom-[132%] -left-[48%] hidden h-60 w-72 grid-cols-5 gap-3 rounded-tr-full min-[1105px]:grid">
           {Array.from({ length: 25 }, (_, i) => (
             <div className="h-4 w-4 rounded-full bg-blue-800"></div>
           )).map((_, i) => {

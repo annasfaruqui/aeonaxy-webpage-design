@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section id="hero-section" className="h-screen">
       <Container extraStyles="flex items-center justify-center">
-        <div className="relative flex flex-col items-center gap-16 pb-20 pt-40 text-center md:mt-20 md:gap-12">
+        <div className="relative flex flex-col items-center gap-16 pb-20 pt-32 text-center md:mt-20 md:gap-12 md:pt-0">
           <div className="clip-path-hero sm:clip-path-hero-sm lg:clip-path-hero-lg absolute left-1/2 top-56 z-0 h-full w-4/5 -translate-x-1/2 -translate-y-1/2 bg-blue-50/80"></div>
           <Heading type="secondary">Routing forms</Heading>
           <Heading type="primary">Make higher quality connections</Heading>

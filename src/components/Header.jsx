@@ -14,15 +14,15 @@ function Header() {
       <Logo />
 
       <button
-        className="block text-blue-500 lg:hidden"
+        className="block text-blue-500 xl:hidden"
         onClick={() => setIsOpen((open) => !open)}
       >
         <FontAwesomeIcon size="2x" icon={isOpen ? faTimes : faBars} />
       </button>
 
-      <Navbar />
+      <Navbar isOpen={isOpen} />
 
-      <div className="hidden items-center justify-center gap-2 lg:flex">
+      <div className="hidden items-center justify-center gap-2 xl:flex">
         <Button
           variation="secondary"
           secCol="text-gray-700 ring-gray-700 hover:bg-gray-100"

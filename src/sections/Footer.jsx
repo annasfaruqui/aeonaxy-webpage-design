@@ -29,8 +29,8 @@ function Footer() {
             more.
           </p>
           <select className="mb-6 mt-8 w-5/6 rounded-md border border-gray-300 p-2 focus:border-gray-600">
-            {options.map((option) => (
-              <option>{option}</option>
+            {options.map((option, i) => (
+              <option key={i}>{option}</option>
             ))}
           </select>
           <div className="flex items-center justify-start gap-2">
@@ -38,8 +38,8 @@ function Footer() {
             <img src={platstoreImg} alt="google playstore" className="w-32" />
           </div>
           <div className="mt-4 flex items-center gap-6 text-2xl">
-            {socials.map((el) => (
-              <FontAwesomeIcon icon={el} className="cursor-pointer" />
+            {socials.map((el, i) => (
+              <FontAwesomeIcon key={i} icon={el} className="cursor-pointer" />
             ))}
           </div>
         </div>
@@ -62,8 +62,10 @@ function FooterLink({ link }) {
     <div className="flex flex-col gap-6">
       <h5 className="text-xl font-bold text-blue-950">{link.heading}</h5>
       <ul className="flex flex-col gap-4">
-        {link.list.map((link) => (
-          <li className="cursor-pointer font-light text-blue-950">{link}</li>
+        {link.list.map((link, i) => (
+          <li key={i} className="cursor-pointer font-light text-blue-950">
+            {link}
+          </li>
         ))}
       </ul>
     </div>
